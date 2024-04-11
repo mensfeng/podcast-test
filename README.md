@@ -14,18 +14,54 @@
 
 <img src="https://raybo.org/tfit-feed/images/artwork.jpg" width="250">
 
-The [Future in Tech](https://go.raybo.org/tfit) is a weekly series powered by [LinkedIn Learning](https://www.linkedin.com/learning/) hosted by Senior Staff Instructor [Ray Villalobos](https://www.linkedin.com/in/planetoftheweb).
+# Mens Feng's Safety Engineering Readme
 
-You can [watch it on LinkedIn](https://go.raybo.org/tfit-episodes) every Thursday at 2pm ET, 11am PT. The goal of this series is to spark conversations, provide practical tips and resources to help developers work, learn, and tackle challenges related to working in the technology industry.
+![Safety Engineering](safety_engineering.jpg)
 
-We're talking about Generative AI tools like ChatGPT, Dall-E*2, Hugging Face by talking to some of the leaders delivering the tools, strategies and technologies that make working in technology exciting. We'll discuss how they broke into technology, business strategies, ethical concerns and technical skills.
+Welcome to Mens Feng's Safety Engineering Readme! Here you will find all the exciting projects, ideas, and initiatives centered around making lives easier, safer, and better through safety engineering. Safety engineering is not just a profession for Mens Feng; it's his adrenaline, his passion, and his commitment to improving the world around him.
 
-You have a chance to hear from people who are not just talking about, but building the next generation tools like Open AI and leaders who've worked for and with Fortune 500 companies like Microsoft, Google, LinkedIn,  IBM,  Open AI and more.
+## Table of Contents
 
----
-## More Info
-- [The Future in Tech Page](https://go.raybo.org/tfit)
-- [Episode Guide](https://go.raybo.org/tfit-episodes)
-- [YouTube Playlist](https://go.raybo.org/tfit-youtube)
-- [Podcast Feed - Audio Only](https://go.raybo.org/tfit-feed-audio)
-- [Episode Newsletter](https://go.raybo.org/tfit-newsletter)
+1. [Introduction](#introduction)
+2. [Projects](#projects)
+    - [Project 1: Smart Helmet for Construction Workers](#project-1-smart-helmet-for-construction-workers)
+    - [Project 2: AI-Powered Fire Detection System](#project-2-ai-powered-fire-detection-system)
+3. [Appendix](#appendix)
+    - [About Mens Feng](#about-mens-feng)
+    - [Contact Information](#contact-information)
+
+## Introduction
+
+Safety engineering is like adrenaline to Mens Feng. With a burning desire to create a world where accidents are minimized, Mens Feng dives headfirst into innovative projects and ideas. His approach combines cutting-edge technology, creativity, and a deep understanding of safety principles to craft solutions that make a tangible difference in people's lives.
+
+## Projects
+
+### Project 1: Smart Helmet for Construction Workers
+
+![Smart Helmet](smart_helmet.jpg)
+
+Construction sites can be hazardous environments, but Mens Feng believes in equipping workers with the best tools for safety. This project involves the development of a smart helmet embedded with sensors and IoT technology. The helmet monitors vital signs, detects hazardous gases, and alerts workers to potential dangers in real-time. By providing proactive safety measures, this smart helmet not only protects workers but also enhances productivity on the job site.
+
+### Project 2: AI-Powered Fire Detection System
+
+![Fire Detection](fire_detection.jpg)
+
+Fires can devastate homes, businesses, and lives in a matter of minutes. Mens Feng's AI-powered fire detection system is designed to revolutionize early fire detection and response. Using advanced machine learning algorithms, the system analyzes environmental data to identify potential fire risks with unparalleled accuracy. By detecting fires in their earliest stages, this system gives occupants precious time to evacuate and emergency responders a head start in containing the blaze.
+
+## Appendix
+
+### About Mens Feng
+
+Mens Feng is a seasoned safety engineer with a passion for leveraging technology to improve safety standards. With a background in mechanical engineering and a knack for innovation, Mens Feng has spearheaded numerous projects that have garnered recognition for their impact on safety and efficiency.
+
+### Contact Information
+
+For inquiries, collaborations, or just to say hello, you can reach Mens Feng at:
+
+Email: mensfeng@safetyengineering.com
+
+Phone: +1 (555) 123-4567
+
+LinkedIn: [Mens Feng](https://www.linkedin.com/in/mensfeng)
+
+Twitter: [@MensFengSafety](https://twitter.com/MensFengSafety)
