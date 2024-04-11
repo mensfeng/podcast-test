@@ -40,6 +40,7 @@ Safety engineering is like adrenaline to Mens Feng. With a burning desire to cre
 
 ![Smart Helmet](smart_helmet.jpg)
 
+
 - Leading the development of an automated system that can replace the weld tip on a welding robot, reducing both production cycle time and the need for human intervention
 
 - Adapting industrial communication protocols to better suit the factory environment and ensure safe communication with existing machines through a handshake mechanism
