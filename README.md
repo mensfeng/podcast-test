@@ -38,7 +38,6 @@ Safety engineering is like adrenaline to Mens Feng. With a burning desire to cre
 
 ### 2.1 Automatic Welding Tip Changing Machine
 
-![Smart Helmet](smart_helmet.jpg)
 
 
 - Leading the development of an automated system that can replace the weld tip on a welding robot, reducing both production cycle time and the need for human intervention
@@ -47,7 +46,7 @@ Safety engineering is like adrenaline to Mens Feng. With a burning desire to cre
 
 ### 2.2 Walking Cane
 
-![Fire Detection](fire_detection.jpg)
+
 
 Successfully designing and crafting a walking cane for the average Canadian, integrating CNC milling and turning operations, and validated the structural integrity through Finite Element Analysis (FEA)
 
