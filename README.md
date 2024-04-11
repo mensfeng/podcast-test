@@ -19,24 +19,40 @@ Hey everyone! For me, committing to product safety is like an adrenaline boost. 
 
 ## Table of Contents
 
-1. [MBSE](#MBSE)
-2. [Projects](#projects)
-    - [Project 1: Smart Helmet for Construction Workers](#project-1-smart-helmet-for-construction-workers)
-    - [Project 2: AI-Powered Fire Detection System](#project-2-ai-powered-fire-detection-system)
-3. [Appendix](#appendix)
+1. [MBSE](#1.-MBSE)
+    - [1.1 Definition](#1.1-Definition)
+2. [Legislation and Regulatory](#2.-Legislation-and-Regulatory)
+    - [2.1 Overview](#2.1-overview)
+    - [2.2 Standard](#2.2-standard)
+    - [2.3 Certification](#2.3-certification)
+3. [Projects](#3.-projects)
+    - [2.1 Automatic Welding Tip Changing Machine](#3.1-automatic-welding-tip-changing-machine)
+    - [2.2 Walking Cane](#3.2-walking-cane)
+4. [Appendix](#appendix)
     - [About Mens Feng](#about-mens-feng)
     - [Contact Information](#contact-information)
 
 ## 1. MBSE
 
-Safety engineering is like adrenaline to Mens Feng. With a burning desire to create a world where accidents are minimized, Mens Feng dives headfirst into innovative projects and ideas. His approach combines cutting-edge technology, creativity, and a deep understanding of safety principles to craft solutions that make a tangible difference in people's lives.
+### 1.1 Definition
+Model-based systems engineering (MBSE) is a formalized methodology that is used to support the requirements, design, analysis, verification, and validation associated with the development of complex systems.
 
 [![Microsoft](https://avatars.githubusercontent.com/u/6154722?s=200&v=4?style=flat-square&logo)](https://microsoft.github.io/AI-For-Beginners/)AI-For-Beginners
 [![NASA](https://avatars.githubusercontent.com/u/848102?s=200&v=4?style=flat-square&logo)](https://github.com/nasa/progpy/blob/master/README.md)NASA-Progpy
 
-## 2. Projects
+## 2. Legislation and Regulatory
 
-### 2.1 Automatic Welding Tip Changing Machine
+### 2.1 Overview
+The area of medical device engineering is heavily regulated. Practicing systems design engineers must consult and cooperate with regulatory law, attorneys, and other experts. The resources in this guide can help you find legislative and regulatory information from Canada and the United States.
+
+### 2.2 Standard
+
+### 2.3 Certification
+
+
+## 3. Projects
+
+### 3.1 Automatic Welding Tip Changing Machine
 
 
 
@@ -44,7 +60,7 @@ Safety engineering is like adrenaline to Mens Feng. With a burning desire to cre
 
 - Adapting industrial communication protocols to better suit the factory environment and ensure safe communication with existing machines through a handshake mechanism
 
-### 2.2 Walking Cane
+### 3.2 Walking Cane
 
 
 
