@@ -10,17 +10,16 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)
 [![Gitter](https://badges.gitter.im/Microsoft/ai-for-beginners.svg)](https://gitter.im/Microsoft/ai-for-beginners?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-<img src="https://raybo.org/tfit-feed/images/artwork.jpg" width="250">
 
 # Safety Engineering Readme
 
-![Safety Engineering](images/Safety.png)
+<img src="images/Safety.png" width="250">
 
-Hey everyone! For me, committing to product safety is like an adrenaline boost. Making lives easier, safer, and better is my ultimate vision. Right now, I'm diving into Model-Based Systems Engineering (MBSE) to build a detailed system database for a machine. I'll be sharing my progress and interesting links I find along the way. Join me on this exciting journey!
+Hey everyone! For me, committing to product safety is like an adrenaline boost. Making lives easier, safer, and better is my ultimate vision. Right now, I'm diving into Model-Based Systems Engineering (MBSE) to build a detailed system database for a machine. Maybe one day I can make a LLM AI with these data. I'll be sharing my progress and interesting links I find along the way. Join me on this exciting journey!
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
+1. [MBSE](#MBSE)
 2. [Projects](#projects)
     - [Project 1: Smart Helmet for Construction Workers](#project-1-smart-helmet-for-construction-workers)
     - [Project 2: AI-Powered Fire Detection System](#project-2-ai-powered-fire-detection-system)
@@ -28,23 +27,28 @@ Hey everyone! For me, committing to product safety is like an adrenaline boost. 
     - [About Mens Feng](#about-mens-feng)
     - [Contact Information](#contact-information)
 
-## Introduction
+## 1. MBSE
 
 Safety engineering is like adrenaline to Mens Feng. With a burning desire to create a world where accidents are minimized, Mens Feng dives headfirst into innovative projects and ideas. His approach combines cutting-edge technology, creativity, and a deep understanding of safety principles to craft solutions that make a tangible difference in people's lives.
 
-## Projects
+![Microsoft]([https://img.shields.io/badge/-Java-black?logo=java&style=social](https://microsoft.github.io/AI-For-Beginners/))&nbsp;&nbsp;
+![NASA]([https://img.shields.io/badge/-Spring%20Framework-black?logo=spring&style=social](https://github.com/nasa/progpy/blob/master/README.md))&nbsp;&nbsp;
 
-### Project 1: Smart Helmet for Construction Workers
+## 2. Projects
+
+### 2.1 Automatic Welding Tip Changing Machine
 
 ![Smart Helmet](smart_helmet.jpg)
 
-Construction sites can be hazardous environments, but Mens Feng believes in equipping workers with the best tools for safety. This project involves the development of a smart helmet embedded with sensors and IoT technology. The helmet monitors vital signs, detects hazardous gases, and alerts workers to potential dangers in real-time. By providing proactive safety measures, this smart helmet not only protects workers but also enhances productivity on the job site.
+- Leading the development of an automated system that can replace the weld tip on a welding robot, reducing both production cycle time and the need for human intervention
 
-### Project 2: AI-Powered Fire Detection System
+- Adapting industrial communication protocols to better suit the factory environment and ensure safe communication with existing machines through a handshake mechanism
+
+### 2.2 Walking Cane
 
 ![Fire Detection](fire_detection.jpg)
 
-Fires can devastate homes, businesses, and lives in a matter of minutes. Mens Feng's AI-powered fire detection system is designed to revolutionize early fire detection and response. Using advanced machine learning algorithms, the system analyzes environmental data to identify potential fire risks with unparalleled accuracy. By detecting fires in their earliest stages, this system gives occupants precious time to evacuate and emergency responders a head start in containing the blaze.
+Successfully designing and crafting a walking cane for the average Canadian, integrating CNC milling and turning operations, and validated the structural integrity through Finite Element Analysis (FEA)
 
 ## Appendix
 
