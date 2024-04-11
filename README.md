@@ -31,8 +31,8 @@ Hey everyone! For me, committing to product safety is like an adrenaline boost. 
 
 Safety engineering is like adrenaline to Mens Feng. With a burning desire to create a world where accidents are minimized, Mens Feng dives headfirst into innovative projects and ideas. His approach combines cutting-edge technology, creativity, and a deep understanding of safety principles to craft solutions that make a tangible difference in people's lives.
 
-[![Microsoft](https://avatars.githubusercontent.com/u/6154722?s=200&v=4)]([https://img.shields.io/badge/-Java-black?logo=java&style=social](https://microsoft.github.io/AI-For-Beginners/))&nbsp;&nbsp;
-[![NASA](https://avatars.githubusercontent.com/u/848102?s=200&v=4)]([https://img.shields.io/badge/-Spring%20Framework-black?logo=spring&style=social](https://github.com/nasa/progpy/blob/master/README.md))&nbsp;&nbsp;
+[![Microsoft](https://avatars.githubusercontent.com/u/6154722?s=200&v=4style=flat-square&logo)](https://microsoft.github.io/AI-For-Beginners/);
+[![NASA](https://avatars.githubusercontent.com/u/848102?s=200&v=4style=flat-square&logo)](https://github.com/nasa/progpy/blob/master/README.md);
 
 ## 2. Projects
 
