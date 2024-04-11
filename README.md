@@ -18,7 +18,7 @@
 
 ![Safety Engineering](safety_engineering.jpg)
 
-Welcome to Mens Feng's Safety Engineering Readme! Here you will find all the exciting projects, ideas, and initiatives centered around making lives easier, safer, and better through safety engineering. Safety engineering is not just a profession for Mens Feng; it's his adrenaline, his passion, and his commitment to improving the world around him.
+Hey everyone! For me, committing to product safety is like an adrenaline boost. Making lives easier, safer, and better is my ultimate vision. Right now, I'm diving into Model-Based Systems Engineering (MBSE) to build a detailed system database for a machine. I'll be sharing my progress and interesting links I find along the way. Join me on this exciting journey!
 
 ## Table of Contents
 
