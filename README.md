@@ -10,11 +10,9 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)
 [![Gitter](https://badges.gitter.im/Microsoft/ai-for-beginners.svg)](https://gitter.im/Microsoft/ai-for-beginners?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-# The Future
-
 <img src="https://raybo.org/tfit-feed/images/artwork.jpg" width="250">
 
-# Mens Feng's Safety Engineering Readme
+# Safety Engineering Readme
 
 ![Safety Engineering](safety_engineering.jpg)
 
@@ -56,12 +54,9 @@ Mens Feng is a seasoned safety engineer with a passion for leveraging technology
 
 ### Contact Information
 
-For inquiries, collaborations, or just to say hello, you can reach Mens Feng at:
-
-Email: mensfeng@safetyengineering.com
-
-Phone: +1 (555) 123-4567
-
-LinkedIn: [Mens Feng](https://www.linkedin.com/in/mensfeng)
-
-Twitter: [@MensFengSafety](https://twitter.com/MensFengSafety)
+&nbsp;<div align="center">
+  [Fork](https://github.com/novatorem/novatorem/blob/main/SetUp.md) this [unlicensed](https://choosealicense.com/licenses/unlicense/) repository to recreate!<br><br>
+  [![Linkedin](https://img.shields.io/badge/linked-in-369?style=flat-square&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/andrew-novac)
+  [![E-Mail](https://img.shields.io/badge/email-reveal-2a8?style=flat-square&logo=gmail&logoColor=white)](https://mail.novac.dev/)
+  [![Visits](https://komarev.com/ghpvc/?username=novatorem&logo=GitHub&label=github%20visits&color=336699&logoColor=white&style=flat-square)](https://github.com/novatorem)
+</div>
