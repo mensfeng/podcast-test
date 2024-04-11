@@ -31,8 +31,8 @@ Hey everyone! For me, committing to product safety is like an adrenaline boost. 
 
 Safety engineering is like adrenaline to Mens Feng. With a burning desire to create a world where accidents are minimized, Mens Feng dives headfirst into innovative projects and ideas. His approach combines cutting-edge technology, creativity, and a deep understanding of safety principles to craft solutions that make a tangible difference in people's lives.
 
-[![Microsoft](https://avatars.githubusercontent.com/u/6154722?s=200&v=4style=flat-square&logo)](https://microsoft.github.io/AI-For-Beginners/);
-[![NASA](https://avatars.githubusercontent.com/u/848102?s=200&v=4style=flat-square&logo)](https://github.com/nasa/progpy/blob/master/README.md);
+[![Microsoft](https://avatars.githubusercontent.com/u/6154722?s=200&v=4?style=flat-square&logo)](https://microsoft.github.io/AI-For-Beginners/)AI-For-Beginners
+[![NASA](https://avatars.githubusercontent.com/u/848102?s=200&v=4?style=flat-square&logo)](https://github.com/nasa/progpy/blob/master/README.md)NASA-Progpy
 
 ## 2. Projects
 
@@ -60,7 +60,7 @@ Mens Feng is a seasoned safety engineer with a passion for leveraging technology
 
 &nbsp;<div align="center">
   [Fork](https://github.com/novatorem/novatorem/blob/main/SetUp.md) this [unlicensed](https://choosealicense.com/licenses/unlicense/) repository to recreate!<br><br>
-  [![Linkedin](https://img.shields.io/badge/linked-in-369?style=flat-square&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/andrew-novac)
+  [![Linkedin](https://img.shields.io/badge/linked-in-369?style=flat-square&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/mens-feng-53356016b/)
   [![E-Mail](https://img.shields.io/badge/email-reveal-2a8?style=flat-square&logo=gmail&logoColor=white)](https://mail.novac.dev/)
   [![Visits](https://komarev.com/ghpvc/?username=novatorem&logo=GitHub&label=github%20visits&color=336699&logoColor=white&style=flat-square)](https://github.com/novatorem)
 </div>
