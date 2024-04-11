@@ -14,7 +14,7 @@
 
 # Safety Engineering Readme
 
-![Safety Engineering](safety_engineering.jpg)
+![Safety Engineering](images/Safety.png)
 
 Hey everyone! For me, committing to product safety is like an adrenaline boost. Making lives easier, safer, and better is my ultimate vision. Right now, I'm diving into Model-Based Systems Engineering (MBSE) to build a detailed system database for a machine. I'll be sharing my progress and interesting links I find along the way. Join me on this exciting journey!
 
