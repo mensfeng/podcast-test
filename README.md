@@ -218,7 +218,7 @@ On the other hand, an industrial solution may be developed in-house to support m
 
 
 
-
+<br /><br />
 ## 3. Projects
 
 ### 3.1 Automatic Welding Tip Changing Machine
@@ -237,7 +237,7 @@ Successfully designing and crafting a walking cane for the average Canadian, int
 
 
 
-
+<br /><br />
 ## Appendix
 
 ### PlantML Output Diagrams
