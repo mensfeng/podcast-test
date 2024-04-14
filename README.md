@@ -47,7 +47,7 @@ Model-based systems engineering (MBSE) is a formalized methodology that is used 
 
 [PlantUML](https://plantuml.com/en/) This website shows how data can be converted into diagrams, but my question is these insturctions are not human langudge
 
-<br /><br />
+
 ### 1.2 Value of MBSE
 In today's fast-moving world, getting products to market quickly and affordably is crucial. "Traceability" – keeping track of the system's development – is essential for smooth audits and certifications, and for legal protection.
 
@@ -55,13 +55,13 @@ Model-Based Systems Engineering (MBSE) is a big help here. It gathers all the in
 
 Plus, MBSE lets you reuse parts of the system, making development cheaper and more sustainable. By using existing models and components, you can speed up development and cut costs.
 
-<br /><br />
+
 ### 1.3 My thought on MBSE project
 
 ### 1.3.1 Project Objective
 A database system that captures machine function data in a human-readable way, displays data relationships using graphic diagrams, and can feed into a Language Model (LM) to build a chatbot.
 
-<br /><br />
+
 ### 1.4 Project Mind Map
 
 ### 1.4.1 PlantML 
@@ -195,6 +195,10 @@ uml.render_directory('.', clean_first=True)
 To be honest, this system is not what I want for my project. But after this experience, I have a clearer vision of what I am looking for. From a top level the system should work like `Diagram --> Text.DB`. Describe the relationship between each `entity` is not very intuitive and the data is not stored in database that can be used to populate a LLM. 
 
 
+
+
+
+<br /><br />
 ## 2. Legislation and Regulatory
 
 ### 2.1 Overview
@@ -239,6 +243,7 @@ Successfully designing and crafting a walking cane for the average Canadian, int
 ### PlantML Output Diagrams
 
 1. SysML Requirements Diagram:
+
 ```python
     +-------------------------+
     |       Car Requirements   |
@@ -266,6 +271,7 @@ Successfully designing and crafting a walking cane for the average Canadian, int
 ```
 
 2. SysML Activity Diagram:
+
 ```python
           +---------------------------+
           |     Start Engine           |
@@ -284,6 +290,7 @@ Successfully designing and crafting a walking cane for the average Canadian, int
 ```
 
 3. SysML State Machine Diagram:
+
 ```python
       +-----------------------------+
       |         Engine State         |
@@ -301,6 +308,7 @@ Successfully designing and crafting a walking cane for the average Canadian, int
 ```
 
 4. SysML Sequence Diagram:
+
 ```python
    +-------------------------------+
    |     User - Car Interaction    |
