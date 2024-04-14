@@ -21,10 +21,13 @@ Hey everyone! For me, committing to product safety is like an adrenaline boost. 
 
 1. [MBSE](#1-mbse)
     - [1.1 Definition](#11-definition)
+    - [1.2 Value of MBSE](#12-value-of-mbse)
+    - [1.3 My thought on MBSE project](#13-my-thought-on-mbse-project)
+    - [1.4 Project Mind Map](#14-project-mind-map)
 2. [Legislation and Regulatory](#2-legislation-and-regulatory)
     - [2.1 Overview](#21-overview)
     - [2.2 Standard](#22-standard)
-    - [2.3 Certification](#.3-certification)
+    - [2.3 Certification](#23-certification)
 3. [Projects](#3-projects)
     - [2.1 Automatic Welding Tip Changing Machine](#31-automatic-welding-tip-changing-machine)
     - [2.2 Walking Cane](#32-walking-cane)
@@ -44,6 +47,111 @@ Model-based systems engineering (MBSE) is a formalized methodology that is used 
 
 [PlantUML](https://plantuml.com/en/) This website shows how data can be converted into diagrams, but my question is these insturctions are not human langudge
 
+### 1.2 Value of MBSE
+In today's fast-moving world, getting products to market quickly and affordably is crucial. "Traceability" – keeping track of the system's development – is essential for smooth audits and certifications, and for legal protection.
+
+Model-Based Systems Engineering (MBSE) is a big help here. It gathers all the information in one place, saving engineers time searching through scattered documents. This not only makes compliance easier but also improves safety standards.
+
+Plus, MBSE lets you reuse parts of the system, making development cheaper and more sustainable. By using existing models and components, you can speed up development and cut costs.
+
+### 1.3 My thought on MBSE project
+
+### 1.3.1 Project Objective
+A database system that captures machine function data in a human-readable way, displays data relationships using graphic diagrams, and can feed into a Language Model (LM) to build a chatbot.
+
+### 1.4 Project Mind Map
+
+### 1.4.1 PlantML 
+
+GPT3.5 created a sample SysML Diagram look like this below. I was quite satistfied with the result that is able to capture the hirearchy realationship of the system display in text format. I asked GPT3.5 how is this generated. It replies that this diagram is generated based of text input(input)[input](#1412-input) and [output](#1411-output) the diagram in text format. It utilized a PlanetUML liberary in python, and no use of SQL database. My summary of this system is **text ----> diagram**. This is a great start, but not quite what I am looking for...
+
+### 1.4.1.1 Output
+
+This is a sample SysML Block Definition Diagram, it captures the hierarchy of components and their relationships within the car system, as well as system functions related to speed and safety data. I have also using GPT3.5 to create other Model digrams which I will put them in appendix [PlantML Output Diagrams](#plantml-output-diagrams).
+
+```python
+       +---------------------+
+       |       CarSystem     |
+       +---------------------+
+                |
+                |
+      +---------------------+
+      |        Car          |
+      +---------------------+
+      | - VIN: String       |
+      | - make: String      |
+      | - model: String     |
+      | - year: int         |
+      +---------------------+
+            /        \
+           /          \
+  +-----------------+  +------------------+
+  |     Engine      |  |   Transmission   |
+  +-----------------+  +------------------+
+  | - horsepower: int|  | - type: String   |
+  | - displacement:  |  | - gears: int     |
+  |    String         |  +------------------+
+  +-----------------+
+                |
+                |
+       +------------------+
+       |     Sensor       |
+       +------------------+
+       | - type: String   |
+       | - location:      |
+       |    String        |
+       +------------------+
+                |
+                |
+       +------------------+
+       |    Controller    |
+       +------------------+
+       | - type: String   |
+       | - function:      |
+       |    String        |
+       +------------------+
+
+```
+<details>
+
+<summary>Click to see Explanation</summary>
+
+<br />
+
+- CarSystem: Represents the overall system of the car, which consists of various components
+
+- Car: Represents the main entity in the car system, with attributes like VIN, make, model, and year
+
+- Engine: Represents the engine component of the car, with attributes like horsepower and displacement
+
+- Transmission: Represents the transmission component of the car, with attributes like type (e.g., automatic, manual) and gears
+
+- Sensor: Represents various sensors in the car system, with attributes like type (e.g., speed sensor, temperature sensor) and location
+
+- Controller: Represents electronic control units (ECUs) or controllers in the car system, with attributes like type (e.g., engine control unit, ABS controller) and function.
+
+<br /><br />
+
+**Relationships and System Functions:**
+
+- The CarSystem contains a Car entity, which encapsulates the entire vehicle
+
+- The Car has an Engine and a Transmission, which are essential components for vehicle propulsion
+
+- The Engine provides power to the car, and the Transmission controls the distribution of this power to the wheels
+
+- The Sensor component collects data such as speed, temperature, and pressure from various parts of the car
+
+- The Controller component processes this data and controls various functions within the car, such as engine control and anti-lock braking system (ABS)
+
+<br />
+
+</details>
+
+
+### 1.4.1.2 Input
+
+
 ## 2. Legislation and Regulatory
 
 ### 2.1 Overview
@@ -59,6 +167,9 @@ On the other hand, an industrial solution may be developed in-house to support m
 ### 2.2 Standard
 
 ### 2.3 Certification
+
+
+
 
 
 ## 3. Projects
@@ -77,7 +188,101 @@ On the other hand, an industrial solution may be developed in-house to support m
 
 Successfully designing and crafting a walking cane for the average Canadian, integrating CNC milling and turning operations, and validated the structural integrity through Finite Element Analysis (FEA)
 
+
+
+
 ## Appendix
+
+### PlantML Output Diagrams
+
+1. SysML Requirements Diagram:
+```python
+    +-------------------------+
+    |       Car Requirements   |
+    +-------------------------+
+              |
+              |
+    +-------------------------+
+    |      Functional         |
+    |    Requirements         |
+    +-------------------------+
+    | - Provide propulsion    |
+    | - Ensure safety         |
+    | - Monitor vehicle speed |
+    +-------------------------+
+              |
+              |
+    +-------------------------+
+    |    Non-Functional       |
+    |    Requirements         |
+    +-------------------------+
+    | - Fuel efficiency       |
+    | - Reliability           |
+    +-------------------------+
+
+```
+
+2. SysML Activity Diagram:
+```python
+          +---------------------------+
+          |     Start Engine           |
+          +---------------------------+
+          |                           |
++------------------------+    +-----------------------------+
+|   Check Fuel Level     |    |    Ignition Key Turned      |
++------------------------+    +-----------------------------+
+|   If fuel is low,      |    |  If ignition key is turned, |
+|   display warning      |    |  send signal to start engine|
++------------------------+    +-----------------------------+
+|   Otherwise, proceed   |    |        Start Engine         |
+|   with ignition        |    +-----------------------------+
++------------------------+
+
+```
+
+3. SysML State Machine Diagram:
+```python
+      +-----------------------------+
+      |         Engine State         |
+      +-----------------------------+
+          |                    |
+    +-----------+          +------------+
+    |  Off      |          |   Running  |
+    +-----------+          +------------+
+      |    |                   |     |
+      |    | Ignition key     |     | Engine running
+      |    +------------------+     |
+      |          Engine off         |
+      +-----------------------------+
+
+```
+
+4. SysML Sequence Diagram:
+```python
+   +-------------------------------+
+   |     User - Car Interaction    |
+   +-------------------------------+
+            |                |
+            | Start Engine   |
+            |--------------->|
+            |                |
+            |                |
+            | Engine Started |
+            |<---------------|
+            |                |
+            |                |
+            | Check Speed    |
+            |--------------->|
+            |                |
+            | Speed Data     |
+            |<---------------|
+            |                |
+            | Stop Engine    |
+            |--------------->|
+            |                |
+   +-------------------------------+
+
+```
 
 ### About Mens Feng
 
