@@ -47,6 +47,7 @@ Model-based systems engineering (MBSE) is a formalized methodology that is used 
 
 [PlantUML](https://plantuml.com/en/) This website shows how data can be converted into diagrams, but my question is these insturctions are not human langudge
 
+<br /><br />
 ### 1.2 Value of MBSE
 In today's fast-moving world, getting products to market quickly and affordably is crucial. "Traceability" – keeping track of the system's development – is essential for smooth audits and certifications, and for legal protection.
 
@@ -54,16 +55,18 @@ Model-Based Systems Engineering (MBSE) is a big help here. It gathers all the in
 
 Plus, MBSE lets you reuse parts of the system, making development cheaper and more sustainable. By using existing models and components, you can speed up development and cut costs.
 
+<br /><br />
 ### 1.3 My thought on MBSE project
 
 ### 1.3.1 Project Objective
 A database system that captures machine function data in a human-readable way, displays data relationships using graphic diagrams, and can feed into a Language Model (LM) to build a chatbot.
 
+<br /><br />
 ### 1.4 Project Mind Map
 
 ### 1.4.1 PlantML 
 
-GPT3.5 created a sample SysML Diagram look like this below. I was quite satistfied with the result that is able to capture the hirearchy realationship of the system display in text format. I asked GPT3.5 how is this generated. It replies that this diagram is generated based of text input(input)[input](#1412-input) and [output](#1411-output) the diagram in text format. It utilized a PlanetUML liberary in python, and no use of SQL database. My summary of this system is **text ----> diagram**. This is a great start, but not quite what I am looking for...
+GPT3.5 created a sample SysML Diagram look like this below. I was quite satistfied with the result that is able to capture the hirearchy realationship of the system display in text format. I asked GPT3.5 how is this generated. It replies that this diagram is generated based of text [input](#1412-input) and [output](#1411-output) the diagram in text format. It utilized a PlanetUML liberary in python, and no use of SQL database. My summary of this system is **text ----> diagram**. This is a great start, but not quite what I am looking for...
 
 ### 1.4.1.1 Output
 
@@ -116,7 +119,7 @@ This is a sample SysML Block Definition Diagram, it captures the hierarchy of co
 
 <summary>Click to see Explanation</summary>
 
-<br />
+<br /><br />
 
 - CarSystem: Represents the overall system of the car, which consists of various components
 
@@ -144,12 +147,52 @@ This is a sample SysML Block Definition Diagram, it captures the hierarchy of co
 
 - The Controller component processes this data and controls various functions within the car, such as engine control and anti-lock braking system (ABS)
 
-<br />
+<br /><br />
 
 </details>
 
 
 ### 1.4.1.2 Input
+I asked GPT3.5 how did you produced the diagram. It told me it used the [PlantUML](https://github.com/plantuml/plantuml/blob/master/README.md) library in `python`. PlantUML allows us to define diagrams using a simple text-based syntax and then generate the corresponding diagrams.
+
+To use PlantUML in python enviroment we need to install it from the `>terminal` using pip
+```
+pip install plantuml
+```
+<br /><br />
+After that we can use it in python. ***see the sample below***
+```python
+from plantuml import PlantUML
+
+# Create a PlantUML instance
+uml = PlantUML()
+
+# Define the text representations of the diagrams
+requirements_diagram = """
+@startuml
+    package "Car Requirements" {
+        package "Functional Requirements" {
+            - Provide propulsion
+            - Ensure safety
+            - Monitor vehicle speed
+        }
+        package "Non-Functional Requirements" {
+            - Fuel efficiency
+            - Reliability
+        }
+    }
+@enduml
+"""
+
+# Generate the diagrams
+uml.processes.append(requirements_diagram)
+
+# Render and save the diagrams
+uml.render_directory('.', clean_first=True)
+
+```
+### 1.4.1.3 Feedback
+To be honest, this system is not what I want for my project. But after this experience, I have a clearer vision of what I am looking for. From a top level the system should work like `Diagram --> Text.DB`. Describe the relationship between each `entity` is not very intuitive and the data is not stored in database that can be used to populate a LLM. 
 
 
 ## 2. Legislation and Regulatory
