@@ -41,11 +41,14 @@ Hey everyone! For me, committing to product safety is like an adrenaline boost. 
 Model-based systems engineering (MBSE) is a formalized methodology that is used to support the requirements, design, analysis, verification, and validation associated with the development of complex systems.
 
 [![Microsoft](https://avatars.githubusercontent.com/u/6154722?s=200&v=4?style=flat-square&logo)](https://microsoft.github.io/AI-For-Beginners/)AI-For-Beginners
-[![NASA](https://avatars.githubusercontent.com/u/848102?s=200&v=4?style=flat-square&logo)](https://github.com/nasa/progpy/blob/master/README.md)NASA-Progpy
+[![NASA](https://avatars.githubusercontent.com/u/848102?s=200&v=4?style=flat-square&logo)](https://github.com/nasa/progpy/blob/master/README.md)NASA-Progpy 
+[![NoMagic](https://avatars.githubusercontent.com/u/46573922?s=200&v=4)](https://www.3ds.com/products/catia/no-magic)Dassault Systèmes
 
 [SysML](https://github.com/Systems-Modeling)Created by OMG supported by IBM, it has been researching in UML, SysML langudges
 
 [PlantUML](https://plantuml.com/en/) This website shows how data can be converted into diagrams, but my question is these insturctions are not human langudge
+
+[NoMagic](https://vimeopro.com/user28256466/no-magic-world-symposium-2016/video/171045570)NoMagic World Conference (Dassault Systèmes)
 
 
 ### 1.2 Value of MBSE
@@ -257,7 +260,28 @@ conn.close()
 
 </details>
 
-### 1.4.2
+### 1.4.2 Opensource/Free MBSE Application
+
+SysML Modeling Tools (e.g., Cameo Systems Modeler Community Edition, Papyrus):
+
+[Cameo Systems Modeler Community Edition](https://www.3ds.com/products/catia/no-magic/cameo-systems-modeler) Cameo Systems Modeler offers a free Community Edition with limited features but includes basic support for database storage and integration.
+
+[Papyrus](https://eclipse.dev/papyrus/relatives.html) 🍍 Papyrus is an open-source modeling tool that supports SysML and UML. It offers database integration features and is available for free as part of the Eclipse Modeling Tools distribution.
+OpenMBEE (Open Model-Based Engineering Environment):
+
+[OpenMBEE](https://github.com/Open-MBEE) 💓 is an open-source platform for model-based engineering that provides tools and resources for collaborative modeling. It offers database storage capabilities and is freely available for use.
+Modelio Community Edition:
+
+Modelio is an open-source modeling tool that supports various modeling standards, including SysML and UML. The Community Edition is free to use and includes basic database integration features.
+Capella:
+
+Capella is an open-source MBSE tool specifically designed for systems architecture modeling. It supports database storage and integration and is freely available for download.
+OpenModelica:
+
+OpenModelica is an open-source modeling and simulation environment for cyber-physical systems. While primarily focused on simulation, it includes capabilities for database storage and management of models.
+Simulink:
+
+Simulink, while not open-source, offers a free trial version and a limited-feature version called Simulink Coder. Simulink supports modeling and simulation of cyber-physical systems and includes database integration features.
 
 
 <br /><br />
