@@ -192,10 +192,72 @@ uml.render_directory('.', clean_first=True)
 
 ```
 ### 1.4.1.3 Feedback
-To be honest, this system is not what I want for my project. But after this experience, I have a clearer vision of what I am looking for. From a top level the system should work like `Diagram --> Text.DB`. Describe the relationship between each `entity` is not very intuitive and the data is not stored in database that can be used to populate a LLM. 
+To be honest, this system is not what I want for my project. But after this experience, I have a clearer vision of what I am looking for. From a top level the system should work like `Diagram --> Text.DB`. Describe the relationship between each `entity` is not very intuitive and the data is not stored in database that can be used to populate a LLM. And, with database I believe we can sync the data. Once place change will correlated to other database.
 
+<details>
 
+<summary>Store data in SQL Sample code</summary>
 
+<br /><br />
+
+```python
+import sqlite3
+
+# Connect to SQLite database
+conn = sqlite3.connect('car_system.db')
+cursor = conn.cursor()
+
+# Create tables for each class
+cursor.execute('''CREATE TABLE IF NOT EXISTS Car (
+                    vin TEXT PRIMARY KEY,
+                    make TEXT,
+                    model TEXT,
+                    year INTEGER
+                )''')
+
+cursor.execute('''CREATE TABLE IF NOT EXISTS Engine (
+                    id INTEGER PRIMARY KEY,
+                    car_vin TEXT,
+                    horsepower INTEGER,
+                    displacement TEXT,
+                    FOREIGN KEY (car_vin) REFERENCES Car(vin)
+                )''')
+
+cursor.execute('''CREATE TABLE IF NOT EXISTS Transmission (
+                    id INTEGER PRIMARY KEY,
+                    car_vin TEXT,
+                    type TEXT,
+                    gears INTEGER,
+                    FOREIGN KEY (car_vin) REFERENCES Car(vin)
+                )''')
+
+cursor.execute('''CREATE TABLE IF NOT EXISTS Sensor (
+                    id INTEGER PRIMARY KEY,
+                    car_vin TEXT,
+                    type TEXT,
+                    location TEXT,
+                    FOREIGN KEY (car_vin) REFERENCES Car(vin)
+                )''')
+
+cursor.execute('''CREATE TABLE IF NOT EXISTS Controller (
+                    id INTEGER PRIMARY KEY,
+                    car_vin TEXT,
+                    type TEXT,
+                    function TEXT,
+                    FOREIGN KEY (car_vin) REFERENCES Car(vin)
+                )''')
+
+# Commit changes and close connection
+conn.commit()
+conn.close()
+
+```
+
+<br /><br />
+
+</details>
+
+### 1.4.2
 
 
 <br /><br />
@@ -334,6 +396,45 @@ Successfully designing and crafting a walking cane for the average Canadian, int
    +-------------------------------+
 
 ```
+
+### Estimated DevOP Timeline and Staff by GPT3.5
+
+| Team Member         | Responsibilities                                                                                                       | Expertise                                                                                                            | Number of People |
+|---------------------|------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|------------------|
+| Database Developer  | Designing the database schema, creating tables, defining relationships, and optimizing database performance.          | Database management systems (e.g., SQLite, MySQL, PostgreSQL), SQL query optimization                                | 1                |
+| Backend Developer   | Implementing CRUD operations for data management, integrating with the database, implementing business logic, and API endpoints. | Backend programming languages (e.g., Python, Java, Node.js), web frameworks (e.g., Flask, Django, Express.js) | 1                |
+| Frontend Developer  | Developing user interfaces for displaying diagrams and interacting with the system.                                    | Frontend technologies (e.g., HTML, CSS, JavaScript), web frameworks (e.g., React, Angular, Vue.js)                  | 1                |
+| Full Stack Developer (optional) | Combining backend and frontend development, implementing end-to-end functionality, and coordinating between different components. | Both backend and frontend technologies.                                                                             | 1 (Optional) |
+
+
+---
+
+### Timeline:
+
+#### Database Design and Setup (2 weeks):
+- Designing the database schema based on requirements.
+- Setting up the database and creating tables.
+
+#### Backend Development (4 weeks):
+- Implementing CRUD operations for data management.
+- Developing APIs for retrieving and storing data.
+- Integrating with the database.
+
+#### Frontend Development (4 weeks):
+- Designing user interfaces for displaying diagrams.
+- Implementing functionality for interacting with diagrams and data.
+
+#### Integration and Testing (2 weeks):
+- Integrating backend and frontend components.
+- Testing the system for functionality, performance, and reliability.
+
+#### Deployment and Launch (1 week):
+- Deploying the system to a production environment.
+- Conducting final checks and ensuring readiness for launch.
+
+**Total Time:** 13 weeks (approximately 3 months)
+
+---
 
 ### About Mens Feng
 
