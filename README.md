@@ -283,6 +283,9 @@ Simulink:
 
 Simulink, while not open-source, offers a free trial version and a limited-feature version called Simulink Coder. Simulink supports modeling and simulation of cyber-physical systems and includes database integration features.
 
+### 1.4.3 Operation Solution
+
+After getting to know PlantUML little better, I think the reason why it is popular is because it changed the way how these diagrams used to be developed. Started with `diagram` then convert it into `code` even `database` with entity relationships. Diagrams are created by coding the relationship between each entitiies. This method is not intuitive as first sight, but it can potencially reduce the number of re-edit the diagram manually. It sure limmits the freedom of manipulating the diagram layout, but it offers a more robust and efficient way to produce diagrams. Moreover, it enphasis the entity relationship as the developer creates the diagram. I have to start using it to find out if this is the solution for this problem.
 
 <br /><br />
 ## 2. Legislation and Regulatory
