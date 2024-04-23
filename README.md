@@ -75,6 +75,14 @@ GPT3.5 created a sample SysML Diagram look like this below. I was quite satistfi
 
 This is a sample SysML Block Definition Diagram, it captures the hierarchy of components and their relationships within the car system, as well as system functions related to speed and safety data. I have also using GPT3.5 to create other Model digrams which I will put them in appendix [PlantML Output Diagrams](#plantml-output-diagrams).
 
+```plantuml
+@startuml
+alice->bob:hello
+@enduml
+
+PlantUML markdown integration (error)
+```
+
 ```python
        +---------------------+
        |       CarSystem     |
